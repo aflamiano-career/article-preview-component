@@ -4,7 +4,7 @@ import SharePopup from "./SharePopup";
 import ShareButton from "./ShareButton";
 
 function ArticleFooter() {
-  const [share, setShare] = useState(true);
+  const [share, setShare] = useState(false);
 
   function handleClick() {
     setShare(!share);
